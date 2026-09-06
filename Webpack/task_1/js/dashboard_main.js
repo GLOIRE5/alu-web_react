@@ -14,6 +14,5 @@ $(document).ready(() => {
   $('body').append('<button id="start">Click here to get started</button>');
   $('body').append('<p id="count"></p>');
   $('body').append('<p>Copyright - Holberton School</p>');
-
   $('#start').on('click', _.debounce(updateCounter, 500));
 });
